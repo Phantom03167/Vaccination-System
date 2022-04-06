@@ -71,3 +71,6 @@ dkms.conf
 *.la
 *.a
 *.lib
+
+*.zip
+/bin
