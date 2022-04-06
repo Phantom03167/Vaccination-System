@@ -1,0 +1,81 @@
+QWidget#Login
+{
+    border-radius:5px;
+}
+
+QWidget#top_menu
+{
+    background-color:#edeef2;
+}
+
+QWidget#mainwidget
+{
+    background-color:#fafafa;
+}
+
+QToolButton
+{
+    border:none;
+    border-radius:5px 5px;
+}
+
+QToolButton#toolButton_minimize:hover
+{
+    background-color:#66a6ff;
+}
+
+QToolButton#toolButton_close:hover
+{
+    background-color:#ff7b5f;
+}
+
+QLineEdit
+{
+    font:25px;
+    padding-left: 15px;
+    border:none;
+    border-radius:5px 5px;
+    background-color:#e3e5ea;
+}
+
+QLineEdit:focus
+{
+    background-color:#ffffff;
+}
+
+QPushButton
+{
+    color:#ffffff;
+    border:none;
+    border-radius:8px 8px;
+}
+
+QPushButton#pushButton_login,QPushButton#pushButton_login:pressed
+{
+    background-color:#6dd790;
+    font-weight:bold;
+}
+
+QPushButton#pushButton_login:hover
+{
+    background-color:#6fdf9f;
+    font-weight:bold;
+}
+
+QPushButton#pushButton_quit,QPushButton#pushButton_quit:pressed
+{
+    background-color:#66a6ff;
+    font-weight:bold;
+}
+
+QPushButton#pushButton_quit:hover
+{
+    background-color:#6fafff;
+    font-weight:bold;
+}
+
+QPushButton#pushButton_forget
+{
+    background-color:#fafafa;
+    color:black;
+}

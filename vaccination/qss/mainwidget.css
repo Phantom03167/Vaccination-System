@@ -1,0 +1,247 @@
+QWidget#top_menu
+{
+    background-color:#edeef2;
+    border-width:0px 0px 1px 0px;
+    border-style:solid;
+    border-color:#c8c8c8;
+}
+
+QToolButton#toolButton_more,QToolButton#toolButton_minimize,QToolButton#toolButton_size,QToolButton#toolButton_close
+{
+    border:none;
+    border-radius:5px 5px;
+    background-color:#edeef2;
+}
+
+QToolButton#toolButton_more:hover,QToolButton#toolButton_minimize:hover,QToolButton#toolButton_size:hover
+{
+    background-color:#dadada;
+}
+
+QToolButton#toolButton_minimize:hover,QToolButton#toolButton_size:hover
+{
+    background-color:#66a6ff;
+}
+
+QToolButton#toolButton_close:hover
+{
+    background-color:#ff7b5f;
+}
+
+QWidget#left_menu
+{
+    background-color:#357df7;
+    border-width:0px 1px 0px 0px;
+    border-style:solid;
+    border-color:#c8c8c8;
+}
+
+QToolButton#toolButton_resident_manage,QToolButton#toolButton_appointment_manage,QToolButton#toolButton_vaccination_information,QToolButton#toolButton_vaccination_site_manage,QToolButton#toolButton_vaccine_manage,QToolButton#toolButton_system_manage
+{
+    border:none;
+    padding-left: 15px;
+    border-radius:5px 5px;
+    background-color:#357df7;
+    color:#aec7fb;
+}
+
+QToolButton#toolButton_vaccination_site_manage
+{
+    padding-left: 8px;
+}
+
+QToolButton#toolButton_resident_manage:hover,QToolButton#toolButton_appointment_manage:hover,QToolButton#toolButton_vaccination_information:hover,QToolButton#toolButton_vaccination_site_manage:hover,QToolButton#toolButton_vaccine_manage:hover,QToolButton#toolButton_vaccination_system_manage:hover
+{
+    color:white;
+}
+
+QToolButton#toolButton_resident_manage:checked,QToolButton#toolButton_appointment_manage:checked,QToolButton#toolButton_vaccination_information:checked,QToolButton#toolButton_vaccination_site_manage:checked,QToolButton#toolButton_vaccination_site_manage:checked,QToolButton#toolButton_vaccination_vaccine_manage:checked,QToolButton#toolButton_vaccination_system_manage:checked
+{
+    background-color:#5791f3;
+    color:white;
+}
+
+
+
+QStackedWidget#stackedWidget
+{
+    background-color:#ffffff;
+}
+
+
+
+QToolButton#toolButton_add,QToolButton#toolButton_cancel
+{
+    border-radius:30px;
+    border-width:2px;
+    border-style:solid;
+    border-color:#c8c8c8;
+    background-color:#ffffff;
+    color:black;
+}
+
+QToolButton#toolButton_add:hover,QToolButton#toolButton_cancel:hover
+{
+    color:#3f85fe;
+}
+
+QToolButton#toolButton_add:pressed,QToolButton#toolButton_cancel:pressed
+{
+    border-color:#3f85fe;
+    background-color:#e5f0fe;
+    color:#3f85fe;
+}
+
+QToolButton#toolButton_del,QToolButton#toolButton_cancel_app
+{
+    border-radius:30px;
+    background-color:#ff7b5f;
+    color:#ffffff;
+}
+
+QToolButton#toolButton_del:hover,QToolButton#toolButton_cancel_app:hover
+{
+    background-color:#ff8a6a;
+}
+
+QToolButton#toolButton_del:pressed,QToolButton#toolButton_cancel_app:pressed
+{
+    background-color:#ff7b5f;
+}
+
+QToolButton#toolButton_save,QToolButton#toolButton_complete_app,QToolButton#toolButton_import
+{
+    border-radius:30px;
+    background-color:#66a6ff;
+    color:#ffffff;
+}
+
+QToolButton#toolButton_save:hover,QToolButton#toolButton_complete_app:hover,QToolButton#toolButton_import:hover
+{
+    background-color:#6fafff;
+}
+
+QToolButton#toolButton_save:pressed,QToolButton#toolButton_complete_app:pressed,QToolButton#toolButton_import:pressed
+{
+    background-color:#66a6ff;
+}
+
+QToolButton#toolButton_appoint,QToolButton#toolButton_export
+{
+    border-radius:30px;
+    background-color:#6dd790;
+    color:#ffffff;
+}
+
+QToolButton#toolButton_appoint:hover,QToolButton#toolButton_export:hover
+{
+    background-color:#6fdf9f;
+}
+
+QToolButton#toolButton_appoint:pressed,QToolButton#toolButton_export:pressed
+{
+    background-color:#6dd790;
+}
+
+QToolButton#toolButton_add:disabled,QToolButton#toolButton_del:disabled,QToolButton#toolButton_save:disabled,QToolButton#toolButton_cancel:disabled,QToolButton#toolButton_appoint:disabled,QToolButton#toolButton_complete_app:disabled,QToolButton#toolButton_cancel_app:disabled
+{
+    border-width:2px;
+    border-style:solid;
+    border-color:#c8c8c8;
+    background-color:#dadada;
+    color:#000000;
+}
+
+
+
+
+QWidget#widget_advanced_search,QScrollArea#scrollArea
+{
+    border-width:2px;
+    border-style:solid;
+    border-color:#c8c8c8;
+    background-color:#ffffff;
+}
+
+QWidget#scrollAreaWidgetContents
+{
+    background-color:#ffffff;
+}
+
+
+
+
+QLineEdit
+{
+    font:20px;
+    padding-left: 15px;
+    border:none;
+    border-radius:5px 5px;
+    background-color:#e3e5ea;
+}
+
+QLineEdit:focus
+{
+    border-width:2px;
+    border-style:solid;
+    border-color:#357df7;
+    background-color:#ffffff;
+}
+
+
+
+QComboBox
+{
+    border:1px solid #c8c8c8;
+    border-radius:5px;
+    padding:1px 1px 1px 5px;
+    background-color:#ffffff;
+}
+
+/*QComboBox::down-arrow
+{
+    margin:0px;
+    border:1px solid #c8c8c8;
+    image:url(:/resource/icon/down_arrow.svg);
+    background-color:#ffffff;
+}*/
+
+
+QToolButton#toolButton_search
+{
+    border-radius:10px;
+    border-width:2px;
+    border-style:solid;
+    border-color:#c8c8c8;
+    background-color:#ffffff;
+    color:black;
+}
+
+QToolButton#toolButton_search:hover
+{
+    color:#3f85fe;
+}
+
+QToolButton#toolButton_search:pressed
+{
+    border-color:#3f85fe;
+    background-color:#e5f0fe;
+    color:#3f85fe;
+}
+
+QPushButton#pushButton_reset_search
+{
+    border-radius:5px;
+    background-color:#66a6ff;
+    color:#ffffff;
+}
+
+QPushButton#pushButton_reset_search:hover
+{
+    background-color:#6fafff;
+}
+
+QPushButton#pushButton_reset_search:pressed
+{
+    background-color:#66a6ff;
+}

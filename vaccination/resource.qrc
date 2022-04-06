@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>icon/close.svg</file>
+        <file>icon/minimize.svg</file>
+        <file>icon/icon.svg</file>
+        <file>icon/password.svg</file>
+        <file>icon/user.svg</file>
+        <file>icon/appointment_manage.svg</file>
+        <file>icon/appointment_manage_focus.svg</file>
+        <file>icon/resident_manage.svg</file>
+        <file>icon/vaccination_information_focus.svg</file>
+        <file>icon/vaccination_information.svg</file>
+        <file>icon/vaccination_site.svg</file>
+        <file>icon/vaccination_site_focus.svg</file>
+        <file>icon/system_manage.svg</file>
+        <file>icon/system_manage_focus.svg</file>
+        <file>icon/resident_manage_focus.svg</file>
+        <file>icon/vaccine_manage.svg</file>
+        <file>icon/vaccine_manage_focus.svg</file>
+        <file>qss/login.css</file>
+        <file>qss/mainwidget.css</file>
+        <file>icon/maximize.svg</file>
+        <file>icon/normalimize.svg</file>
+        <file>icon/appointment_manage_hover.svg</file>
+        <file>icon/down_arrow.svg</file>
+        <file>icon/resident_manage_hover.svg</file>
+        <file>icon/vaccination_information_hover.svg</file>
+        <file>icon/vaccination_site_hover.svg</file>
+        <file>icon/vaccine_manage_hover.svg</file>
+        <file>icon/more.svg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
